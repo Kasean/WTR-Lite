@@ -1,0 +1,36 @@
+stages:
+  - test
+  - deploy
+
+#FE part
+deploy_fe:
+  stage: deploy
+  tags:
+    - npm
+  only:
+    - master
+  script:
+    - /runners/work/it-lab-g4/deploy/build_fe.sh
+    - /runners/work/it-lab-g4/deploy/deploy_fe.sh
+
+
+#BE part
+# comment to skip tests
+run_integration_tests_BE:
+  stage: test
+  tags:
+    - java
+  only:
+    - master
+  script:
+    - /runners/work/it-lab-g4/deploy/run_integration_tests_be.sh
+
+deploy_BE:
+  stage: deploy
+  tags:
+    - java
+  only:
+    - master
+  script:
+    - mvn clean install -DskipTests=true -f ./work-time-report-backend/pom.xml
+    - /runners/work/it-lab-g4/deploy/deploy.sh

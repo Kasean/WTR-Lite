@@ -1,0 +1,2 @@
+Создание базы данных переехало из work-time-report-doc\database\create_database.sql в work-time-report-backend\src\main\resources\schema.sql
+В work-time-report-backend\src\main\resources\data.sql можно добавлять дынныые для таблиц.

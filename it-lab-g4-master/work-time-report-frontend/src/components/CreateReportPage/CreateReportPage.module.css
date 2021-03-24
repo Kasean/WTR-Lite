@@ -1,0 +1,70 @@
+.text {
+  margin-left: 25px;
+  font-size: 25px;
+}
+
+.firstRows {
+  display: grid;
+  grid-auto-columns: 115px;
+  margin: 20px 20px 0px;
+  font-size: 20px;
+}
+
+.userMenu {
+  font-size: 20px;
+  height: 25px;
+  width: 100px;
+}
+
+td {
+  padding: 10px;
+  width: 110px;
+}
+
+.page {
+  min-width: 1120px;
+  max-width: 1920px;
+}
+
+.dayReport {
+  float: left;
+  display: grid;
+  grid-template-columns: 300px 30px 30px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 450px 150px 150px;
+  max-width: 1080px;
+}
+
+
+.registerReport {
+  margin: 20px;
+  padding: 10px 0px 10px;
+  font-size: 20px;
+}
+
+.button {
+  margin: 20px;
+  padding: 10px 0px 10px;
+  font-size: 20px;
+  width: 150px;
+}
+
+
+
+.table {
+  font-weight: normal;
+  border-bottom: 2px solid #6678b1;
+  border-right: 30px solid #fff;
+  border-left: 30px solid #fff;
+  color: rgb(116, 162, 255);
+  padding: 8px 2px;
+
+
+  border-right: 30px solid #fff;
+  border-left: 30px solid #fff;
+  color: rgb(86, 171, 240);
+  padding: 12px 2px;
+}

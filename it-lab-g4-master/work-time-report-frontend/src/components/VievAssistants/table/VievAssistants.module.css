@@ -1,0 +1,50 @@
+.td {
+    font-weight: normal;
+    border-bottom: 2px solid #6678b1;
+    border-right: 30px solid #fff;
+    border-left: 30px solid #fff;
+    color: rgb(116, 162, 255);
+    padding: 8px 2px;
+
+
+    border-right: 30px solid #fff;
+    border-left: 30px solid #fff;
+    color: rgb(86, 171, 240);
+    padding: 12px 2px;
+}
+
+.viev {
+    margin: 20px 20px 0px;
+
+    font-size: 20px;
+}
+
+.scrollMenu {
+    font-size: 20px;
+    height: 25px;
+    width: 100%;
+}
+
+.comment {
+    font-size: 20px;
+    height: 19px;
+    width: 120px;
+}
+
+.addRow {
+    margin: 20px;
+    padding: 10px 0px 10px;
+    font-size: 20px;
+}
+
+.taskTime {
+    font-size: 20px;
+    height: 19px;
+    width: 30px;
+}
+
+.registerReport {
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,46 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0; 
+}
+.p{
+    text-align: center; 
+}
+.btn {
+    text-align: center;
+	margin-left: 50%;
+	margin-top: 10px;
+  }
+tr{
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    justify-content: center;
+}
+th{
+    border: 1px solid rgb(55,71,79);
+    font-size: 1em;
+    height: 55px;
+}
+.th{
+    background-color: rgb(68,202,238);
+    width: 228px;
+    height: 83px;
+}
+.form{
+    width: 200px;
+    height: 55px;
+}
+
+.form1{
+    max-width: 175px;
+    max-height: 30px;
+}
+
+h1{
+    font-size: 1.5em;
+}
+.editReportforweek{
+    margin-left: 0px;
+}
+.tasks{width: 100%;}

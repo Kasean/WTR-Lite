@@ -1,0 +1,39 @@
+.button{
+    background: url(https://api.icons8.com/download/201e81e69e493bacb09d5290d4021c0ab8fbec46/Color/PNG/512/Time_And_Date/calendar-512.png);
+    background-size:100%;
+    width: 27px;
+    height: 27px;
+    border: 1px double rgb(255, 255, 255);
+    outline: none;
+}
+
+.calendarForm{
+    display: grid;
+    grid-template-columns: 90px 10px;
+    padding: 15px;
+}
+.textarea{
+    height: 16px;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 3px;
+    outline: none;
+}
+.sendData{
+    display: grid;
+    max-height: 20px;
+}
+.textarea:valid{
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 124, 0);
+    padding: 3px;
+    outline: none;
+}
+.textarea:invalid{
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(192, 9, 9);
+    padding: 3px;
+    outline: none;
+}

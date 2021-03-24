@@ -1,0 +1,33 @@
+.table{
+    border-spacing: 0;
+
+    
+}
+tr{
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    justify-content: center;
+}
+th{
+    border: 1px solid rgb(55,71,79); 
+    font-size: 1em;
+    max-height: 55px;
+}
+.th{
+    background-color: rgb(68,202,238);
+    width: 130px;
+    font-weight: normal;
+
+}
+.form{
+    width: 200px;  
+    max-height: 55px; 
+}
+
+.editReport h1{
+    font-size: 1.5em;
+}
+.editReport{
+    margin-left: 30px;
+}

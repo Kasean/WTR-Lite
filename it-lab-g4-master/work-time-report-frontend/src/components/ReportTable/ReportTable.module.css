@@ -1,0 +1,26 @@
+.contentTable {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.contentTable h1 {
+  font-size: 1.5em;
+}
+.td {
+  padding: 7px;
+  display: grid;
+  grid-template-columns: 100px;
+  color:black;
+}
+.sectionLast {
+  width: 1065px;
+  background-color: rgb(68, 202, 238);
+}
+.trOne {
+  background-color: rgb(68, 202, 238);
+}
+.drawingDates{
+  font-weight: normal;
+}
+.Selection{
+  font-weight: bold;
+}
